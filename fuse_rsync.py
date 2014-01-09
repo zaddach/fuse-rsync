@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+#Copyright (c) 2014 Jonas Zaddach
+#Licensed under the MIT License (https://github.com/zaddach/fuse-rsync/blob/master/LICENSE)
+
 import os
 import sys
 import errno
