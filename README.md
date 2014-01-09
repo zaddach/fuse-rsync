@@ -26,6 +26,8 @@ to connect to the rsync module *mymodule* on *remoteserver* with user *nobody* a
 and mount it to */mnt*. Other useful switches might be *-f* to keep the execution of the program
 in foreground and see logging output, and *-d* to see debugging output.
 
+To unmount, use *fusermount -u /mnt*.
+
 ## Notes ##
 
 There is some rudimentary caching for filesystem attributes, which should work fine because
